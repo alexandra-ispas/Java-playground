@@ -1,0 +1,26 @@
+SOLID is an acronym for the first five Object-Oriented Design.
+S:
+    One class should have one, and only one, responsibility. SRP sustains high
+    maintainability and visibility control across the application modules.
+
+O:
+    Open Closed Principle = Software components should be open for extension,
+    but closed for modification.
+
+L:
+    Liskov's Substitution Principle stands for Derived types must be completely
+    substitutable for their base types. L sustains the fact that objects of
+    subclasses must behave in the same way as the objects of superclasses.
+    L is useful for runtime-type identification followed by the cast.
+
+I:
+    Interface Segregation Principle (ISP) stands for Clients should not be forced
+    to implement unnecessary methods that they will not use. It splits an interface
+    into two or more interfaces until clients are not forced to implement methods
+    that they will not use.
+
+D:
+    Dependency Inversion Principle (DIP) stands for Depend on abstractions, not
+    on concretions. D sustains the use of abstract layers to bind concrete modules
+    together instead of having concrete modules that depend on other concrete modules.
+    D sustains the decoupling of concrete modules.
