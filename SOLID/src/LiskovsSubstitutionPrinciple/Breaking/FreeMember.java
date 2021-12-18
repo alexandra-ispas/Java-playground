@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Breaking;
+package LiskovsSubstitutionPrinciple.Breaking;
 
 public class FreeMember extends Member {
     public FreeMember(String name) {

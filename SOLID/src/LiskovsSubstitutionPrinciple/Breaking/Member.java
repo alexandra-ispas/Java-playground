@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Breaking;
+package LiskovsSubstitutionPrinciple.Breaking;
 
 public abstract class Member {
 

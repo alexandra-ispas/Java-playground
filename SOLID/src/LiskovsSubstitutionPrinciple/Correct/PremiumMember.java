@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Breaking;
+package LiskovsSubstitutionPrinciple.Correct;
 
 public class PremiumMember extends Member {
 

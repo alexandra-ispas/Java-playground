@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Breaking;
+package LiskovsSubstitutionPrinciple.Breaking;
 
 import java.util.List;
 

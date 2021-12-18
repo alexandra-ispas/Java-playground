@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Correct;
+package LiskovsSubstitutionPrinciple.Correct;
 
 public interface TournamentOrganizer {
 

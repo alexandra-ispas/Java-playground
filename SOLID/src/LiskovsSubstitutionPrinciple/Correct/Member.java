@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Correct;
+package LiskovsSubstitutionPrinciple.Correct;
 
 public abstract class Member implements TournamentJoiner, TournamentOrganizer {
 

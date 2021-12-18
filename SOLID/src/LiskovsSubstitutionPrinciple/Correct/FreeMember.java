@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Correct;
+package LiskovsSubstitutionPrinciple.Correct;
 
 public class FreeMember implements TournamentJoiner {
     private final String name;

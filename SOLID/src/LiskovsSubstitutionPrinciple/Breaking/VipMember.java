@@ -1,4 +1,4 @@
-package LiskovsSUbstitutionPrinciple.Correct;
+package LiskovsSubstitutionPrinciple.Breaking;
 
 public class VipMember extends Member {
 
