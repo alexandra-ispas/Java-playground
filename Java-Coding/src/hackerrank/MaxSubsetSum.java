@@ -4,6 +4,8 @@ package hackerrank;
  * Given an array of integers, find the subset of non-adjacent elements with the maximum sum.
  * Calculate the sum of that subset. It is possible that the maximum sum is , the case when all
  * elements are negative.
+ *
+ * We keep the first 2 biggest sums in the array and operate on them
  */
 public class MaxSubsetSum {
     public static int maxSubsetSum(int[] arr) {
