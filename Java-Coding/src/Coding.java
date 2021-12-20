@@ -1,5 +1,6 @@
 import challenge3.JosephusIterative;
 import challenge3.JosephusRecursive;
+import challenge4.ColorSpots;
 
 public class Coding {
     public static void main(String[] args) {
@@ -22,6 +23,42 @@ public class Coding {
 //        Hanoi.TowerOfHanoi (3, 'A', 'B', 'C');
 
 //        System.out.println ( JosephusRecursive.josephus ( 15, 3 ));
-        JosephusIterative.josephus ( 15, 3 );
+//        JosephusIterative.josephus ( 15, 3 );
+
+
+        int r = 5, c = 5;
+        int[][] grid = new int[r][c];
+
+        grid[0][0] = 1;
+        grid[0][1] = 2;
+        grid[0][2] = 3;
+        grid[0][3] = 2;
+        grid[0][4] = 2;
+
+        grid[1][0] = 2;
+        grid[1][1] = 1;
+        grid[1][2] = 2;
+        grid[1][3] = 3;
+        grid[1][4] = 3;
+
+        grid[2][0] = 2;
+        grid[2][1] = 3;
+        grid[2][2] = 3;
+        grid[2][3] = 3;
+        grid[2][4] = 3;
+
+        grid[3][0] = 3;
+        grid[3][1] = 2;
+        grid[3][2] = 1;
+        grid[3][3] = 1;
+        grid[3][4] = 3;
+
+        grid[4][0] = 1;
+        grid[4][1] = 3;
+        grid[4][2] = 2;
+        grid[4][3] = 3;
+        grid[4][4] = 3;
+
+        ColorSpots.colorSpots ( grid, r, c );
     }
 }
