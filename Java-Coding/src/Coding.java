@@ -3,6 +3,7 @@ import challenge3.JosephusRecursive;
 import challenge4.ColorSpots;
 import challenge7.MagicIndex;
 import challenge8.TheFallingBall;
+import hackerrank.BalancedBracketsPair;
 
 public class Coding {
     public static void main(String[] args) {
@@ -76,36 +77,38 @@ public class Coding {
 
 
 
-        grid[0][0] = 5;
-        grid[0][1] = 4;
-        grid[0][2] = 3;
-        grid[0][3] = 4;
-        grid[0][4] = 5;
+//        grid[0][0] = 5;
+//        grid[0][1] = 4;
+//        grid[0][2] = 3;
+//        grid[0][3] = 4;
+//        grid[0][4] = 5;
+//
+//        grid[1][0] = 4;
+//        grid[1][1] = 1;
+//        grid[1][2] = 1;
+//        grid[1][3] = 3;
+//        grid[1][4] = 4;
+//
+//        grid[2][0] = 4;
+//        grid[2][1] = 1;
+//        grid[2][2] = 1;
+//        grid[2][3] = 3;
+//        grid[2][4] = 3;
+//
+//        grid[3][0] = 3;
+//        grid[3][1] = 2;
+//        grid[3][2] = 2;
+//        grid[3][3] = 3;
+//        grid[3][4] = 2;
+//
+//        grid[4][0] = 2;
+//        grid[4][1] = 1;
+//        grid[4][2] = 1;
+//        grid[4][3] = 2;
+//        grid[4][4] = 1;
+//
+//        TheFallingBall.displayPath ( grid, r, c, 0, 4 );
 
-        grid[1][0] = 4;
-        grid[1][1] = 1;
-        grid[1][2] = 1;
-        grid[1][3] = 3;
-        grid[1][4] = 4;
-
-        grid[2][0] = 4;
-        grid[2][1] = 1;
-        grid[2][2] = 1;
-        grid[2][3] = 3;
-        grid[2][4] = 3;
-
-        grid[3][0] = 3;
-        grid[3][1] = 2;
-        grid[3][2] = 2;
-        grid[3][3] = 3;
-        grid[3][4] = 2;
-
-        grid[4][0] = 2;
-        grid[4][1] = 1;
-        grid[4][2] = 1;
-        grid[4][3] = 2;
-        grid[4][4] = 1;
-
-        TheFallingBall.displayPath ( grid, r, c, 0, 4 );
+        System.out.println ( BalancedBracketsPair.isBalanced ( "{[()}" ) );
     }
 }
