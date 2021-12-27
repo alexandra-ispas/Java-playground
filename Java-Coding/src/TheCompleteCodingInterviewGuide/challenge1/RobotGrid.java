@@ -1,4 +1,4 @@
-package challenge1;
+package TheCompleteCodingInterviewGuide.challenge1;
 
 import java.awt.Point;
 import java.util.Set;

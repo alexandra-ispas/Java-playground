@@ -1,7 +1,6 @@
-package challenge3;
+package TheCompleteCodingInterviewGuide.challenge3;
 
 import java.util.ArrayDeque;
-import java.util.Iterator;
 import java.util.Queue;
 
 public class JosephusIterative {

@@ -1,4 +1,4 @@
-package challenge8;
+package TheCompleteCodingInterviewGuide.challenge8;
 
 /**
  * Consider an m x n grid where each (m, n) cell has an elevation represented by a

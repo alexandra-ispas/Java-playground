@@ -1,4 +1,4 @@
-package challenge7;
+package TheCompleteCodingInterviewGuide.challenge7;
 
 /**
  * Consider a sorted array of n elements that allows duplicates. An index k is

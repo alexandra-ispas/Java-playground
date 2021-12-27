@@ -1,4 +1,4 @@
-package challenge4;
+package TheCompleteCodingInterviewGuide.challenge4;
 
 import java.util.HashMap;
 import java.util.Map;
