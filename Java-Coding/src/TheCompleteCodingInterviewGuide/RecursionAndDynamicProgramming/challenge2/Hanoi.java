@@ -1,4 +1,4 @@
-package TheCompleteCodingInterviewGuide.challenge2;
+package TheCompleteCodingInterviewGuide.RecursionAndDynamicProgramming.challenge2;
 
 /**
  * three rods (A, B, and C) and n disks.

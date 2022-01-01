@@ -1,4 +1,4 @@
-package TheCompleteCodingInterviewGuide.challenge3;
+package TheCompleteCodingInterviewGuide.RecursionAndDynamicProgramming.challenge3;
 
 /**
  * Consider a group of n men arranged in a circle (1, 2, 3, ..., n). Every kth man will

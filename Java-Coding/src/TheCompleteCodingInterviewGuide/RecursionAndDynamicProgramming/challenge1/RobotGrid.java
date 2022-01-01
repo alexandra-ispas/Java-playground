@@ -1,4 +1,4 @@
-package TheCompleteCodingInterviewGuide.challenge1;
+package TheCompleteCodingInterviewGuide.RecursionAndDynamicProgramming.challenge1;
 
 import java.awt.Point;
 import java.util.Set;

@@ -1,16 +1,12 @@
-import AdobeArchivesGeeksforGeeks.CheckIfListIsPalindrome;
-import AdobeArchivesGeeksforGeeks.CountWords;
-import AdobeArchivesGeeksforGeeks.EquilibriumIndexOfAnArray;
-import AdobeArchivesGeeksforGeeks.GetNthNodeFromEndOfTheList;
-import AdobeArchivesGeeksforGeeks.MergeSortOnLinkedList;
-import AdobeArchivesGeeksforGeeks.MiddleElementFromList;
 import AdobeArchivesGeeksforGeeks.MyAtoi;
-import AdobeArchivesGeeksforGeeks.RemoveDupsFromSortedLinkedList;
-import AdobeArchivesGeeksforGeeks.ReverseListInGroupsOfGivenSize;
-import AdobeArchivesGeeksforGeeks.ReverseWordsInAString;
-import AdobeArchivesGeeksforGeeks.SearchInSortedAndRotatedArray;
-import AdobeArchivesGeeksforGeeks.SortingArray;
-import hackerrank.BalancedBracketsPair;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge10.MatrixWIthZeros;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge3.ReplaceWhitespaces;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge4.OneEditAway;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge5.ShrinkString;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge6.ExtractIntegers;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge7.ExtractCodePointsOfSurrogatePairs;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge8.StringIsRotation;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge9.RotateMatrix;
 
 import java.util.Arrays;
 
@@ -201,28 +197,63 @@ public class Coding {
 //        arr[4] = 2;
 //        System.out.println ( SearchInSortedAndRotatedArray.find ( arr, 5 ) );
 
-        MergeSortOnLinkedList.Node head = new MergeSortOnLinkedList.Node ( 1 );
-        MergeSortOnLinkedList.Node head1 = new MergeSortOnLinkedList.Node ( 2 );
-        MergeSortOnLinkedList.Node head2 = new MergeSortOnLinkedList.Node ( 3 );
-        MergeSortOnLinkedList.Node head3 = new MergeSortOnLinkedList.Node ( 4 );
-        MergeSortOnLinkedList.Node head4 = new MergeSortOnLinkedList.Node ( 5 );
-        MergeSortOnLinkedList.Node head5 = new MergeSortOnLinkedList.Node ( 2 );
-        MergeSortOnLinkedList.Node head6 = new MergeSortOnLinkedList.Node ( 3 );
-        MergeSortOnLinkedList.Node head7 = new MergeSortOnLinkedList.Node ( 2 );
-        MergeSortOnLinkedList.Node head8 = new MergeSortOnLinkedList.Node ( 1 );
-        head.next = head1;
-        head1.next = head2;
-        head2.next = head3;
-        head3.next = head4;
-        head4.next = head5;
-        head5.next = head6;
-        head6.next = head7;
-        head7.next = head8;
-//        MergeSortOnLinkedList.Node aux = null;
-//        System.out.println (MergeSortOnLinkedList.splitList ( head));
-//        System.out.println (head);
-        System.out.println ( ReverseWordsInAString.reverseWords ( "ana are multe mere" ) );
+//        System.out.println ( ReverseWordsInAString.reverseWords ( "ana are multe mere" ) );
 
-        System.out.println ("ceva");
+//        System.out.println ( ReachNthStair.climb ( 4 ) );
+
+//        int[] arr = new int[4];
+//        arr[0] = 8;
+//        arr[1] = 4;
+//        arr[2] = 2;
+//        arr[3] = 1;
+//
+//        System.out.println (InversionCount.getInversionsNumber ( arr ));
+//        System.out.println ( FindTheKthNumberWithGivenPrimeFactors.kth ( 4 ) );
+
+//        System.out.println ( UniqueCharacters.hasUniqueCharacters ( "asdfghj" ) );
+//
+//        System.out.println ( UniqueCharacters.hasUniqueCharacters ( "ana" ) );
+
+//        System.out.println ( ReplaceWhitespaces.replace ( "ana are mere sau altceva".toCharArray () ) );
+
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "cana" ) );
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "na" ) );
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "ana" ) );
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "bna" ) );
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "a" ) );
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "canab" ) );
+//        System.out.println ( OneEditAway.isOneEditAway ( "ana", "anac" ) );
+
+//        System.out.println ( ShrinkString.shrink ( "abbb vvvv s rttt rr eeee f" ) );
+//        System.out.println ( ShrinkString.shrink ( "abcdefghij" ) );
+
+//        System.out.println ( ExtractIntegers.extractInteger ( "cv dd 4 k 2321 2 11 k4k2 66 4d" ) );
+
+//        System.out.println (String.valueOf(Character.toChars(128149)));
+
+//        char[] musicalScore = new char[]{'\uD83C', '\uDFBC'};
+//        char[] smileyFace = new char[]{'\uD83D', '\uDE0D'};
+//        char[] twoHearts = new char[]{'\uD83D', '\uDC95'};
+//        char[] cyrillicZhe = new char[]{'\u04DC'};
+//
+//        String str = "is" + String.valueOf(cyrillicZhe) + "zhe"
+//                + String.valueOf(twoHearts) + "two hearts"
+//                + String.valueOf(smileyFace) + "smiley face and, "
+//                + String.valueOf(musicalScore) + "musical score";
+//        System.out.println ( ExtractCodePointsOfSurrogatePairs.getCodePoints ( str ) );
+
+//        System.out.println ( StringIsRotation.isRotation ( "helloworld", "orldhellow" ) );
+
+//        int[][] matrix = {{1, 2, 3, 4, 0, 5, 6, 7},
+//                        {8, 9, 10, 11, 12, 13, 14, 15},
+//                        {16, 17, 18, 19, 20, 21, 0, 22},
+//                        {23, 24, 25, 26, 27, 28, 29, 30},
+//                        {31, 32, 33, 34, 35, 36, 37, 38}};
+//        System.out.println ( Arrays.deepToString (matrix));
+//        MatrixWIthZeros.modifyMatrix ( matrix );
+//        System.out.println ( Arrays.deepToString (matrix));
+
+
+
     }
 }

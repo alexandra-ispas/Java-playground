@@ -1,4 +1,4 @@
-package TheCompleteCodingInterviewGuide.challenge3;
+package TheCompleteCodingInterviewGuide.RecursionAndDynamicProgramming.challenge3;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
