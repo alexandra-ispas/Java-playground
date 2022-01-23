@@ -1,5 +1,6 @@
 import AdobeArchivesGeeksforGeeks.MyAtoi;
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge10.MatrixWIthZeros;
+import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge12.Pairs;
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge3.ReplaceWhitespaces;
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge4.OneEditAway;
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge5.ShrinkString;
@@ -7,6 +8,15 @@ import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge6.ExtractIntege
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge7.ExtractCodePointsOfSurrogatePairs;
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge8.StringIsRotation;
 import TheCompleteCodingInterviewGuide.ArraysAndStrings.challenge9.RotateMatrix;
+import TheCompleteCodingInterviewGuide.RecursionAndDynamicProgramming.challenge14.SubsetSum;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.HeapSort;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.MergeSort;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.QuickSort;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.challenge1.MergingTwoSortedArrays;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.challenge2.AnagramsGrouping;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.challenge3.SizelessList;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.challenge3.Solver;
+import TheCompleteCodingInterviewGuide.SortingAndSearching.challenge4.SinglyLinkedList;
 
 import java.util.Arrays;
 
@@ -34,8 +44,8 @@ public class Coding {
 //        JosephusIterative.josephus ( 15, 3 );
 
 
-        int r = 5, c  = 5;
-        int[][] grid = new int[r][c];
+//        int r = 5, c  = 5;
+//        int[][] grid = new int[r][c];
 //
 //        grid[0][0] = 1;
 //        grid[0][1] = 2;
@@ -253,7 +263,54 @@ public class Coding {
 //        MatrixWIthZeros.modifyMatrix ( matrix );
 //        System.out.println ( Arrays.deepToString (matrix));
 
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//        System.out.println ( SubsetSum.subsetSum ( arr, 9 ) );
+//        QuickSort.sort ( arr, 0, arr.length - 1 );
+//        System.out.println ( Arrays.toString (  arr ));
 
+//        int[] arr = new int[8];
+//        arr[0] = 1;
+//        arr[1] = 2;
+//        arr[2] = 3;
+//        arr[3] = 4;
+//        int[] arr1 = {6, 7, 9, 12};
+//
+//        MergingTwoSortedArrays.merge ( arr, arr1 );
+//        System.out.println (Arrays.toString ( arr ));
+
+//        String[] words = {
+//                "calipers", "caret", "slat", "cater", "thickset",
+//                "spiracle", "trace", "last", "salt", "bowel", "crate",
+//                "loop", "polo", "thickest", "below", "thickets",
+//                "pool", "elbow", "replicas"
+//        };
+//
+//        AnagramsGrouping.withCountingOccurrences ( words );
+
+//        SizelessList s = new SizelessList ( arr );
+//        System.out.println (Solver.getIndex ( s, 6 ));
+
+        SinglyLinkedList sll = new SinglyLinkedList();
+
+        sll.insertFirst(2);
+        sll.insertFirst(12);
+        sll.insertFirst(9);
+        sll.insertFirst(10);
+        sll.insertFirst(-9);
+        sll.insertFirst(56);
+        sll.insertFirst(1);
+        sll.insertFirst(-2);
+        sll.insertFirst(10);
+        sll.insertFirst(0);
+        sll.insertFirst(10);
+
+        System.out.println("Initial list:");
+        sll.print();
+
+        sll.sort();
+
+        System.out.println("\nSorted list:");
+        sll.print();
 
     }
 }
